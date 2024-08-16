@@ -1384,8 +1384,8 @@
         }, 
         "wrongWallet" : { 
           "close" : "OK", 
-          "description" : "Faça login em outra carteira {address} e tente novamente." , " 
-          title" : "Ação para outra carteira" 
+          "description" : "Faça login em outra carteira {address} e tente novamente." , 
+          "title" : "Ação para outra carteira" 
         } 
       }, 
       "comment" : "Comentar", 
