@@ -1,14 +1,14 @@
 ﻿{ 
   "about_risk_modal" : { 
-    "description" : "O valor total dos tokens que serão enviados da sua carteira. Os reembolsos não estão incluídos no valor total.", 
-    "description_with_nft" : "O valor total dos tokens, excluindo o custo dos NFTs, que serão enviados da sua carteira. Os reembolsos não estão incluídos no valor total.", 
+    "description" : "Valor total dos tokens que serão enviados da sua carteira. Os reembolsos não estão incluídos no valor total.", 
+    "description_with_nft" : "Valor total dos tokens, excluindo o custo dos NFTs, que serão enviados da sua carteira. Os reembolsos não estão incluídos no valor total.", 
     "ok_button" : "OK" 
   }, 
-  "about_ton" : "TON é uma blockchain de camada 1 totalmente descentralizada, projetada pelo Telegram para integrar bilhões de usuários. Ela possui transações ultrarrápidas, taxas mínimas, aplicativos fáceis de usar e é ecologicamente correta.", 
+  "about_ton" : "TON é uma blockchain de camada 1 totalmente descentralizada, projetada pelo Telegram para integrar bilhões de usuários. Ela possui transações ultrarrápidas, taxas mínimas, aplicativos fáceis de usar e é ecologicamente correto.", 
   "access_confirmation_logout" : "Sair", 
   "access_confirmation_reset" : "Redefinir", 
   "access_confirmation_title" : "Digite a senha", 
-  "access_confirmation_update_biometry" : "Digite a senha para usar dados de autenticação biométrica", 
+  "access_confirmation_update_biometry" : "Digite a senha para usar a autenticação biométrica", 
   "access_denied" : "Acesso negado", 
   "account_deleted" : "Conta excluída", 
   "activityActionModal" : { 
@@ -21,14 +21,14 @@
     "sent" : "Enviado", 
     "swapped" : "Trocado", 
     "time_on" : "em {time}", 
-    "withdraw" : "Desapostar", 
-    "withdrawal_request" : "Solicitação de desativação de aposta" 
+    "withdraw" : "Retirada", 
+    "withdrawal_request" : "Solicitação de saque" 
   }, 
   "activity" : { 
     "buy_toncoin_btn" : "Compre Toncoin", 
     "empty_transaction_caption" : "Faça sua primeira transação!", 
     "empty_transaction_title" : "Seu histórico será exibido aqui", 
-    "failed_transaction" : "Falha", 
+    "failed_transaction" : "Falhou", 
     "receive_btn" : "Receber", 
     "received" : "Recebido", 
     "screen_title" : "Histórico", 
@@ -74,22 +74,22 @@
     "import_title" : "Importar carteira", 
     "ledger" : { 
       "subtitle" : "Módulo de hardware, Bluetooth, recursos TON limitados", 
-      "title" : "Emparelhar com Ledger" 
+      "title" : "Conectar com uma Ledger" 
     }, 
     "other_options" : "Outras opções", 
     "signer" : {
-      "subtitle" : "Completamente offline, air-gapped, todos os recursos do TON", 
-      "title" : "Emparelhar com o Signatário" 
+      "subtitle" : "Completamente offline todos os recursos do TON", 
+      "title" : "Emparelhar com o Signer" 
     }, 
     "subtitle" : "Criar uma nova carteira ou adicionar uma existente.", 
     "testnet" : { 
-      "subtitle" : "Importar carteira com 24 palavras secretas de recuperação para o Testnet", 
-      "title" : "Conta do Testnet" 
+      "subtitle" : "Importar carteira com 24 palavras secretas de recuperação para Rede Testnet", 
+      "title" : "Conta da Rede Testnet" 
     }, 
     "title" : "Adicionar carteira", 
     "watch_only" : { 
-      "subtitle" : "Para monitorar a atividade da carteira sem frase de recuperação", 
-      "title" : "Observar conta" 
+      "subtitle" : "Para visualizar atividades da carteira sem uma frase de recuperação", 
+      "title" : "Obsevar conta" 
     } 
   }, 
   "add_watch_only" : { 
@@ -198,10 +198,10 @@
       "empty" : "Troque, envie tokens e NFTs.", 
       "less_10" : "Você tem bateria suficiente para menos de 10 transações.", 
       "other" : "Você tem bateria suficiente para mais de %{cnt} transações.", 
-      "other.few" : "Sua bateria tem {count} charges", 
-      "other.many" : "Sua bateria tem {count} cargas", 
-      "other.one" : "Sua bateria tem {count} cargas", 
-      "other.other" : "Sua bateria tem {count} cargas" 
+      "other.few" : "Sua Bateria tem {count} cargas", 
+      "other.many" : "Sua Bateria tem {count} cargas", 
+      "other.one" : "Sua Bateria tem {count} cargas", 
+      "other.other" : "Sua Bateria tem {count} cargas" 
     }, 
     "max_input_amount" : "O valor máximo de entrada é {amount}", 
     "ok" : "OK", 
@@ -224,7 +224,7 @@
       "disclaimer" : "Uma carga cobre a taxa média de transação. Algumas transações podem custar mais.", 
       "ok" : "OK", 
       "refilled" : "Sua bateria está carregada", 
-      "refund" : "Histórico de carga", 
+      "refund" : "Histórico de Cargas", 
       "restore" : "Restaurar compras", 
       "subtitle" : { 
         "few" : "{count} cargas",
@@ -279,38 +279,38 @@
       "supported" : "Transações suportadas", 
       "title" : "Transações", 
       "types" : { 
-        "jetton" : "transferências jetton", 
-        "nft" : "transferências NFT", 
-        "swap" : "swaps", 
-        "ton" : "transferências TON" 
+        "jetton" : "Transferências jetton", 
+        "nft" : "Transferências NFT", 
+        "swap" : "Swaps|Trocas", 
+        "ton" : "Transferências TON" 
       }, 
       "type" : { 
-        "swap" : "swap", 
-        "transfer" : "transfer" 
+        "swap" : "Swap|Troca", 
+        "transfer" : "Transferir" 
       }, 
       "will_be_paid" : "Será pago: {enabledTransactions}" 
     } 
   }, 
   "biometria" : { 
     "android" : { 
-      "face_recognition" : "reconhecimento facial", 
-      "face_recognition_genitive" : "reconhecimento facial", 
-      "face_recognition_instrumental" : "reconhecimento facial", 
-      "impressão digital" :"impressão digital", 
-      "fingerprint_genitive" : "impressão digital", 
-      "fingerprint_instrumental" : "impressão digital" 
+      "face_recognition" : "Reconhecimento facial", 
+      "face_recognition_genitive" : "Reconhecimento facial", 
+      "face_recognition_instrumental" : "Reconhecimento facial", 
+      "impressão digital" :"Impressão digital", 
+      "fingerprint_genitive" : "Impressão digital", 
+      "fingerprint_instrumental" : "Impressão digital" 
     }, 
-    "padrão" : "biometria", 
-    "default_accusative" : "biometria", 
-    "default_genitive" : "biometria", 
-    "default_instrumental" : "biometria", 
+    "padrão" : "Biometria", 
+    "default_accusative" : "Biometria", 
+    "default_genitive" : "Biometria", 
+    "default_instrumental" : "Biometria", 
     "ios" : { 
-      "reconhecimento facial" : "ID facial", 
-      "reconhecimento facial_genitive" : "ID facial", 
-      "reconhecimento facial_instrumental" : "ID facial", 
-      "impressão digital" : "ID de toque", 
-      "genitivo de impressão digital" : "ID de toque",
-      "fingerprint_instrumental" : "Touch ID" 
+      "face_recognition" : "Face ID", 
+      "face_recognition_genitive" : "Face ID", 
+      "face_recognition_instrumental" : "Face ID", 
+      "fingerprint" : "Impressão Digital", 
+      "fingerprint_genitive" : "Impressão Digital",
+      "fingerprint_instrumental" : "Impressão Digital" 
     } 
   }, 
   "bluetooth" : { 
@@ -360,7 +360,7 @@
     "web_search_title" : "Pesquisa do {searchEngine}" 
   }, 
   "buy_ton" : { 
-    "subtitle" : "Instantaneamente com um cartão bancário", 
+    "subtitle" : "Instantaneamente com Cartão de Crédito", 
     "title" : "Compre TON" 
   }, 
   "cancel" : "Cancelar", 
@@ -466,8 +466,8 @@
   "create_pin_repeat_title" : "Digitar senha novamente", 
   "create_wallet_caption" : "Recomendamos fortemente que você anote a frase de recuperação porque é a única maneira de ter acesso e recuperar sua carteira em caso de perda do dispositivo. Não a envie para si mesmo por e-mail nem faça uma captura de tela. É mais seguro mantê-la offline.", 
   "create_wallet_continue_button" : "Continuar", 
-  "create_wallet_generated" : "Sua carteira\nacabou de ser criada!", 
-  "create_wallet_generating" : "Gerando carteira...",
+  "create_wallet_generated" : "Sua carteira acabou de ser criada!", 
+  "create_wallet_generating" : "Criando sua carteira...",
   "create_wallet_title": "Pegue uma caneta e um pedaço de papel", 
   "customize": "Personalizar", 
   "customize_modal": { 
@@ -565,7 +565,7 @@
   "import_existing_wallet_description" : "Importe uma carteira com 24 palavras secretas de recuperação", 
   "import_new_wallet" : "Nova carteira", 
   "import_new_wallet_description": "Criar nova carteira", 
-  "import_signer": "Emparelhar com o Signatário", 
+  "import_signer": "Conectar com o Signer", 
   "import_signer_description": "Completamente offline, isolado, todos os recursos do TON", 
   "import_wallet_caption": "Para restaurar o acesso à sua carteira, insira as 24 palavras secretas de recuperação fornecidas a você quando criou sua carteira.", 
   "import_wallet_reset_caption": "Restaure o acesso à sua carteira\n8inserindo as 24 palavras secretas que você anotou ao criar a carteira.", 
@@ -586,11 +586,11 @@
   "intro_item2_title" : "Segurança de ponta a ponta", 
   "intro_item3_caption" : "-", 
   "intro_item3_title" : "-", 
-  "intro_title" : "Bem-vindo\nto ", 
-  "it_expires_on" : "Ele expira em", 
-  "jetton_buy_tether" : "Compre USD₮", "jetton_id" : " 
-  ID do token 
-  : {jettonAddress}", "jetton_id_copied" : "ID do token copiado", 
+  "intro_title" : "Bem-vindo ",
+  "it_expires_on" : "Expira em",
+  "jetton_buy_tether" : "Comprar USD₮",
+  "jetton_id" : "Token ID: {jettonAddress}",
+  "jetton_id_copied" : "Token ID Copiado",
   "jetton_locked_till" : "Bloqueado até {date}", 
   "jetton_migrate_tether" : "Trocar jUSDT para USD₮", 
   "jetton_name" : "Token {name}", 
@@ -610,12 +610,13 @@
       "en" : "Inglês", 
       "es" : "Espanhol", 
       "id" : "Indonésio", 
+      "pt" : "Português-Br",
       "ru" : "Russo", 
       "system" : "Sistema", 
       "tr" : "Turco", 
       "uk" : "Ucraniano", 
-      "uz" : "Uzbeque", 
-      "zh-Hans" : "Chinês" 
+      "uz" : "Uzbeque",
+      "zh-Hans" : "Chinês"
     }, 
     "list_item" : { 
       "title" : "Idioma", 
@@ -626,9 +627,9 @@
   "later" : "Mais tarde", 
   "ledger" : { 
     "confirm_title" : "Confirmar ação", 
-    "confirm_tx" : "Confirme sua transação no Ledger", 
-    "connect" : "Conecte o Ledger ao seu dispositivo via Bluetooth", 
-    "connect_title" : "Conecte o Ledger", 
+    "confirm_tx" : "Confirme sua transação na Ledger", 
+    "connect" : "Conecte a Ledger ao seu dispositivo via Bluetooth", 
+    "connect_title" : "Conecte a Ledger", 
     "install_ton_app" : "Instale o aplicativo TON", 
     "open_ton_app" : "Desbloqueie e abra o aplicativo TON", 
     "operation_not_supported" : "A operação não está disponível para carteiras Ledger. Selecione outra carteira e tente novamente." 
@@ -650,7 +651,7 @@
     "logout_button" : "Sair", 
     "title" : "Sair" 
   }, 
-  "manage_other_coins" : "Gerenciar meus crypto", 
+  "manage_other_coins" : "Gerenciar minhas criptos", 
   "migration_cancel_btn" : "Atualizar mais tarde", 
   "migration_caption" : "O Tonkeeper apresenta um novo formato de carteira que suporta pagamentos de assinatura. Seu saldo será transferido para um novo endereço. Sua frase de recuperação permanecerá a mesma.", 
   "migration_failed" : "A migração falhou. Não foi possível transferir seu saldo.", 
@@ -674,7 +675,7 @@
       "collection" : "Ocultar coleção", 
       "nft" : "Ocultar NFT" 
     }, 
-    "view_on_explorer" : "Exibir no Tonviewer" 
+    "view_on_explorer" : "Ver no Tonviewer" 
   }, 
   "nft_browse_markets" : "Navegar pelos mercados", 
   "nft_chain" : "Cadeia", 
@@ -746,7 +747,7 @@
   "nft_unlink_domain_button" : "Visualizar com '{{'address'}}'", 
   "nft_unnamed_collection" : "Coleção sem nome", 
   "nft_view_in_explorer" : "Visualizar em explorer", 
-  "nokyc" : "sem KYC", 
+  "nokyc" : "Sem KYC", 
   "notcoin" : { 
     "all" : "Troque tudo no Tonkeeper Pro", 
     "burn_not_available" : { 
@@ -756,8 +757,8 @@
     }, 
     "count" : "Número de vouchers", 
     "count_max" : "Máximo de 4 por troca", 
-    "exchange" : "Troque\nvouchers para NOT", 
-    "exchange_all" : "Troque tudo no\nTonkeeper Pro", 
+    "exchange" : "Troque vouchers para NOT", 
+    "exchange_all" : "Troque tudo no Tonkeeper Pro", 
     "exchange_subtitle" : "NOT estará disponível no seu saldo logo após a troca.", 
     "exchange_title" : "Troque seus vouchers para NOT", 
     "exchange_to_not" : "Troque para NOT", 
@@ -765,7 +766,7 @@
     "not_vouchers" : "NOT vouchers", 
     "open" : "Abrir", 
     "open_bot" : "Abrir Notcoin Bot", 
-    "slogan" : "Provavelmente nada", 
+    "slogan" : "Probably nothing", 
     "total_amount" : "Valor total", 
     "verify_subtitle" : "A verificação pode levar algumas horas.", 
     "verify_title" : "Conecte a carteira ao Notcoin Bot para verificar a queima" 
@@ -828,12 +829,12 @@
       "fingerprint_genitive" : "impressão digital" 
     }, 
     "ios" : { 
-      "capitalized_face_recognition" : "ID facial", 
-      "capitalized_fingerprint" : "Touch ID",
-      "face_recognition": "ID facial", 
-      "face_recognition_genitive": "ID facial", 
-      "fingerprint": "ID de toque", 
-      "fingerprint_genitive": "ID de toque" 
+      "capitalized_face_recognition" : "Reconhecimento Facial", 
+      "capitalized_fingerprint" : "Impressão digital",
+      "face_recognition": "Reconhecimento Facial", 
+      "face_recognition_genitive": "Reconhecimento Facial", 
+      "fingerprint": "Impressão digital", 
+      "fingerprint_genitive": "Impressão digital" 
     } 
   }, 
   "programmable_nfts": { 
@@ -983,15 +984,15 @@
   "send_title" : "Enviar {currency}", 
   "settings_appearance" : "Tema", 
   "settings_backup_seed" : "Backup", 
-  "settings_bank_card" : "Cartão bancário", 
+  "settings_bank_card" : "Cartão de Crédito", 
   "settings_contact_support" : "Entre em contato conosco", 
   "settings_delete_account": "Excluir conta", 
   "settings_delete_alert_button": "Excluir conta e dados", 
   "settings_delete_alert_caption": "Esta ação excluirá sua conta e todos os dados deste aplicativo.", 
   "settings_delete_alert_title": "Tem certeza de que deseja excluir sua conta?", 
   "settings_delete_signer_account": "Excluir conta?", 
-  "settings_delete_watch_account": "Excluir conta do Watch?", "settings_delete_watch_account_button" 
-  : "Excluir", 
+  "settings_delete_watch_account": "Excluir conta de Visualização?", 
+  "settings_delete_watch_account_button": "Excluir", 
   "settings_faq": "Perguntas frequentes", 
   "settings_jettons_list": "Tokens", 
   "settings_legal_documents": "Legal", 
@@ -1028,16 +1029,16 @@
   "setup_biometry_title" : "Login rápido com {biometryType}", 
   "setup_notifications_caption" : "Receba notificações quando receber\nTON, tokens e NFTs", 
   "setup_notifications_enable_button" : "Habilitar notificações", 
-  "setup_notifications_title" : "Receba notificações\ninstantâneas", 
+  "setup_notifications_title" : "Receba notificações instantâneas", 
   "signerConfirm" : { 
     "confirm" : "Confirme sua transação no Signer", 
     "scan_qr" : "Escaneie o código QR com o Signer", 
-    "scan_signed_qr" : "Escaneie o código QR da transação assinada do Signatário", 
+    "scan_signed_qr" : "Escaneie o código QR da transação assinada do Signer", 
     "step" : "Etapa {value}", 
     "title" : "Confirmar ação" 
   }, 
   "signer_scan_result" : "Digitalizar transação assinada", 
-  "signer_scan_tx_description" : "Abra o Signatário e digitalize o código QR com a transação", 
+  "signer_scan_tx_description" : "Abra o Signer e digitalize o código QR com a transação", 
   "skip" : "Pular", 
   "spam_action" : "Spam", 
   "staking" : { 
