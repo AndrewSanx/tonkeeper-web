@@ -1,0 +1,1512 @@
+{ 
+  "about_risk_modal" : { 
+    "description" : "Valor total dos tokens que serão enviados da sua carteira. Os reembolsos não estão incluídos no valor total.", 
+    "description_with_nft" : "Valor total dos tokens, excluindo o custo dos NFTs, que serão enviados da sua carteira. Os reembolsos não estão incluídos no valor total.", 
+    "ok_button" : "OK" 
+  }, 
+  "about_ton" : "TON é uma blockchain de camada 1 totalmente descentralizada, projetada pelo Telegram para integrar bilhões de usuários. Ela possui transações ultrarrápidas, taxas mínimas, aplicativos fáceis de usar e é ecologicamente correto.", 
+  "access_confirmation_logout" : "Sair", 
+  "access_confirmation_reset" : "Redefinir", 
+  "access_confirmation_title" : "Digite a senha", 
+  "access_confirmation_update_biometry" : "Digite a senha para usar a autenticação biométrica", 
+  "access_denied" : "Acesso negado", 
+  "account_deleted" : "Conta excluída", 
+  "activityActionModal" : { 
+    "bid" : "Lance", 
+    "burned" : "Queimado", 
+    "call_contract" : "Contrato de compra", 
+    "deposit" : "Aposta", 
+    "purchase" : "Compra", 
+    "received" : "Recebido", 
+    "sent" : "Enviado", 
+    "swapped" : "Trocado", 
+    "time_on" : "em {time}", 
+    "withdraw" : "Retirada", 
+    "withdrawal_request" : "Solicitação de saque" 
+  }, 
+  "activity" : { 
+    "buy_toncoin_btn" : "Compre Toncoin", 
+    "empty_transaction_caption" : "Faça sua primeira transação!", 
+    "empty_transaction_title" : "Seu histórico será exibido aqui", 
+    "failed_transaction" : "Falhou", 
+    "receive_btn" : "Receber", 
+    "received" : "Recebido", 
+    "screen_title" : "Histórico", 
+    "sent" : "Enviado" 
+  }, 
+  "add_edit_favorite" : { 
+    "address_label" : "Endereço", 
+    "add_title" : "Novo favorito", 
+    "delete" : "Excluir", 
+    "edit_title" : "Editar favorito", 
+    "name_placeholder" : "Nome", 
+    "save" :"Salvar" 
+  }, 
+  "add_other_coins" : "Adicionar outras criptomoedas", 
+  "address_copied" : "Endereço copiado", 
+  "address_update" : { 
+    "first_option" : "Provavelmente a carteira de destino já está sendo usada ativamente e você não notará nenhuma diferença.", 
+    "learn_more" : "Saiba mais", 
+    "new_style" : "Novo endereço", 
+    "notification_desc_did_change" : "O endereço da sua carteira foi atualizado para o formato UQ. O endereço antigo também continua funcionando.",
+    "notification_desc_will_change" : "Em 5 de outubro, o endereço da sua carteira será atualizado para o formato UQ, que é melhor. O endereço antigo também funcionará. Você não precisa fazer nada.", 
+    "old_style" : "Endereço antigo", 
+    "post_dates" : "\n5 de outubro de 2023: todos os endereços mudam para o formato UQ no Tonkeeper.\n\n1 de janeiro de 2024: o Tonkeeper para de verificar o status do contrato e usa o sinalizador "bounceable" no endereço. As moedas enviadas para contratos não publicados com um endereço EQ retornarão ao remetente.", 
+    "post_published_date" : "Publicado: 27 de setembro de 2023", 
+    "post_rest" : "Existem dois estilos de endereço no blockchain TON e até agora apenas um era usado para aplicativos e carteiras.\n\nO formato EQ é melhor para contratos inteligentes que processam fundos recebidos. Se um contrato inteligente ainda não foi publicado — ou seja, o código não está no blockchain — então os TONs enviados para esse endereço retornarão para o remetente. E este é um recurso de segurança: se houver algum erro, os TONs retornarão.\n\nO formato UQ é melhor para carteiras. As moedas nunca retornam porque as carteiras são projetadas para simplesmente armazenar fundos. Cada carteira começa como um endereço simples sem um código no blockchain. Portanto, não faria sentido que as moedas retornassem.\n\nEste ano, estamos mudando as carteiras para o formato UQ mais adequado. E se você continuar enviando fundos para um endereço EQ antigo que alguém lhe deu, haverá duas opções:\n", 
+    "post_top" : "Até o final deste ano, toda a rede TON exibirá os endereços das carteiras de forma diferente. O novo endereço começará com UQ em vez de EQ. E as últimas quatro letras também mudarão. O endereço antigo também funcionará e direcionará para a mesma carteira. De qualquer forma, isso não afeta a segurança dos fundos armazenados na sua carteira.", 
+    "second_option" : "É menos provável que a carteira nunca tenha sido usada para pagamentos. E o Tonkeeper não enviará moedas para esse endereço no ano que vem. Você terá que pedir ao destinatário um novo endereço UQ.", 
+    "title" : "Atualização de endereço", 
+    "why_change" : "Por que mudar?", 
+    "your_wallet" : "Sua carteira" 
+  }, 
+  "add_wallet" : "Adicionar carteira", 
+  "add_wallet_modal" : { 
+    "create" : { 
+      "subtitle" : "Criar nova carteira", 
+      "title" : "Nova carteira" 
+    }, 
+    "import" : { 
+      "subtitle" : "Importar carteira com 24 palavras secretas de recuperação", 
+      "title" : "Carteira existente" 
+    }, 
+    "import_subtitle" : "Escolha entre as opções abaixo.",
+    "import_title" : "Importar carteira", 
+    "ledger" : { 
+      "subtitle" : "Módulo de hardware, Bluetooth, recursos TON limitados", 
+      "title" : "Conectar com uma Ledger" 
+    }, 
+    "other_options" : "Outras opções", 
+    "signer" : {
+      "subtitle" : "Completamente offline todos os recursos do TON", 
+      "title" : "Emparelhar com o Signer" 
+    }, 
+    "subtitle" : "Criar uma nova carteira ou adicionar uma existente.", 
+    "testnet" : { 
+      "subtitle" : "Importar carteira com 24 palavras secretas de recuperação para Rede Testnet", 
+      "title" : "Conta da Rede Testnet" 
+    }, 
+    "title" : "Adicionar carteira", 
+    "watch_only" : { 
+      "subtitle" : "Para visualizar atividades da carteira sem uma frase de recuperação", 
+      "title" : "Obsevar conta" 
+    } 
+  }, 
+  "add_watch_only" : { 
+    "subtitle" : "Monitorar a atividade da carteira sem frase de recuperação. Você será notificado sobre quaisquer transações desta carteira.", 
+    "title" : "Observar conta", 
+    "wallet_not_found" : "Endereço da carteira não encontrado" 
+  }, 
+  "all_regions" : "Todas as regiões", 
+  "appearance_accent_name" : { 
+    "andromeda" : "Andrômeda", 
+    "arctic" : "Ártico", 
+    "azure" : "Azure", 
+    "coral" : "Coral", 
+    "cosmos" : "Cosmos", 
+    "default" : "Tonkeeper", 
+    "flamingo" : "Flamingo", 
+    "fluid" : "Fluido", 
+    "galaxy" : "Galáxia", 
+    "iris" : "Íris", 
+    "marine" : "Marinho", 
+    "ocean" : "Oceano", 
+    "sky" : "Céu" 
+  }, 
+  "appearance_confirm" : "Definir", 
+  "appearance_description" : "O NFT TON Diamonds deixará sua carteira mais colorida e única.", 
+  "appearance_title" : "Tema", 
+  "app_name" : "Tonkeeper", 
+  "approval" : { 
+    "accept" : "Aceitar", 
+    "accepted" : "Visível", 
+    "accepted_at_collection": "Aceito em {data}", 
+    "accepted_at_token": "Aceito em {data}", 
+    "accepted_collection": "Coleção aceita", 
+    "accepted_token": "Token aceito", 
+    "approve_all": "Aceitar todos", 
+    "approve_collection_many":"Aprovar tokens de entrada da coleção \"{collection}\"", 
+    "approve_collection_one" : "Aprovar token de entrada da coleção \"{collection}\"", 
+    "approve_many" : "Aprovar {count} tokens de entrada", 
+    "approve_token" : "Aprovar token de entrada \"{name}\"", 
+    "approve_two_collections" : "Aprovar tokens de entrada das coleções \"{collection1}\" \"{collection2}\"", 
+    "approve_two_tokens" : "Aprovar tokens de entrada \"{name1}\" e \"{name2}\"", 
+    "blacklisted_collection" : "Coleção na lista negra", 
+    "blacklisted_token" : "Token na lista negra", 
+    "decline" : "Recusar", 
+    "declined" : "Oculto",
+    "declined_at_collection" : "Recusado em {data}", 
+    "declined_at_token" : "Recusado em {data}", 
+    "details_collection" : "Detalhes da coleção", 
+    "details_token" : "Detalhes do token", 
+    "id_collection" : "ID da coleção", 
+    "id_token" : "ID do token", 
+    "manage_tokens" : "Gerenciar tokens", 
+    "move_to_accepted" : "Mover para Aceito", 
+    "move_to_accepted_collection" : "Mostrar coleção na carteira", 
+    "move_to_accepted_token" : "Mostrar token na carteira", 
+    "move_to_declined" : "Mover para Recusado", 
+    "move_to_declined_collection" : "Ocultar coleção da carteira", 
+    "move_to_declined_token" : "Ocultar token da carteira", 
+    "name" : "Nome", 
+    "not_spam" : "Não é spam", 
+    "pending" : "Pendente", 
+    "show_all" : "Mostrar tudo", 
+    "single_token" : "Token único", 
+    "spam" : "Spam", 
+    "token_copied" : "ID do token copiado", 
+    "token_count" : { 
+      "one" : "{count} token", 
+      "other" : "{count} tokens" 
+    }, 
+    "unverified_token" : "Token não verificado", 
+    "verify_collection" : "Verificar coleção", 
+    "verify_description_collection" : "Esses tokens são de um emissor desconhecido. Para detectar falsificações, verifique a ID da coleção com a fonte oficial do emissor. Você pode alterar a visibilidade do token mais tarde nas configurações.", 
+    "verify_description_token" : "Este token é de um emissor desconhecido. Para detectar falsificações, verifique a ID do token com a fonte oficial do emissor. Você pode alterar a visibilidade do token mais tarde nas configurações.", 
+    "verify_token" : "Verificar token", 
+    "whitelisted_collection" : "Coleção na lista de permissões", 
+    "whitelisted_token" : "Token na lista de permissões" 
+  }, 
+  "auth_failed" : "Falha na autenticação", 
+  "backup_check" : { 
+    "caption" : "Vamos ver se você entendeu tudo certo. Insira as palavras {um}, {dois} e {três}.", 
+    "done_button" : "Concluído", 
+    "title" : "Verificação de backup" 
+  }, 
+  "backup_screen" :{ 
+    "backup_warning" : "Seu saldo é {totalFiat} e está protegido apenas por uma frase de recuperação que você ainda não anotou. Faça backup da frase para evitar perder fundos em caso de problemas com o dispositivo.", 
+    "last_backup_time" : "Último backup {time}", 
+    "manual_backup_on" : "Backup manual ativado", 
+    "manual_button" : "Fazer backup manualmente", 
+    "manual_caption" : "Faça backup da sua carteira manualmente anotando a frase de recuperação.", 
+    "manual_title" : "Manual", 
+    "show_recovery_phrase" : "Mostrar frase de recuperação", 
+    "title" : "Backup" 
+  },
+  "backup_warning" : { 
+    "cancel_button" : "Cancelar", 
+    "caption" : "Leia o seguinte com atenção antes de visualizar sua frase de recuperação.", 
+    "continue_button" : "Continuar", 
+    "p1" : "Nunca insira sua frase de recuperação em nenhum outro lugar que não seja o Tonkeeper para acessar sua carteira.", 
+    "p2" : "O suporte do Tonkeeper nunca solicita uma frase de recuperação.", 
+    "p3" : "Todos com sua frase de recuperação podem acessar sua carteira.", 
+    "title" : "Atenção" 
+  }, 
+  "balances_setup_wallet" : "Configurar carteira", 
+  "battery" : { 
+    "description" : { 
+      "empty" : "Troque, envie tokens e NFTs.", 
+      "less_10" : "Você tem bateria suficiente para menos de 10 transações.", 
+      "other" : "Você tem bateria suficiente para mais de %{cnt} transações.", 
+      "other.few" : "Sua Bateria tem {count} cargas", 
+      "other.many" : "Sua Bateria tem {count} cargas", 
+      "other.one" : "Sua Bateria tem {count} cargas", 
+      "other.other" : "Sua Bateria tem {count} cargas" 
+    }, 
+    "max_input_amount" : "O valor máximo de entrada é {amount}", 
+    "ok" : "OK", 
+    "other_ways" : { 
+      "by_crypto" : { 
+        "subtitle" : "Usando {methods}", 
+        "title" : "Recarregue com {symbol}" 
+      }, 
+      "gift" : { 
+        "subtitle" : "Compartilhe com amigos", 
+        "title" : "Presente de bateria" 
+      }, 
+      "promo" : { 
+        "subtitle" : "Você tem sorte", 
+        "title" : "Digite o código promocional" 
+      } 
+    }, 
+    "packages" : { 
+      "buy" : "Comprar", 
+      "disclaimer" : "Uma carga cobre a taxa média de transação. Algumas transações podem custar mais.", 
+      "ok" : "OK", 
+      "refilled" : "Sua bateria está carregada", 
+      "refund" : "Histórico de Cargas", 
+      "restore" : "Restaurar compras", 
+      "subtitle" : { 
+        "few" : "{count} cargas",
+        "many" : "{count} cargas", 
+        "one" : "{count} cargas", 
+        "other" : "{count} cargas" 
+      }, 
+      "title" : { 
+        "large" : "Grande", 
+        "medium" : "Médio", 
+        "small" : "Pequeno" 
+      } 
+    }, 
+    "please_wait" : "A bateria será carregada em alguns minutos", 
+    "promocode" : { 
+      "apply" : "Aplicar", 
+      "button" : "Recarregar por código promocional", 
+      "placeholder" : "Código", 
+      "success" : "Sua bateria está carregada",
+      "title" : "Código promocional" 
+    }, 
+    "recharge_by_crypto" : { 
+      "continue" : "Continuar", 
+      "other" : { 
+        "subtitle" : "Digite o valor manualmente", 
+        "title" : "Outro" 
+      }, 
+      "title" : "Recarga", 
+      "title_gift" : "Presente", 
+      "tokens" : "Tokens" 
+    }, 
+    "refilled" : "Bateria recarregada", 
+    "refund" : { 
+      "subtitle" : "Recargas e reembolsos", 
+      "title" : "Histórico de cobranças" 
+    }, 
+    "screen_title" : "Bateria", 
+    "send_widget" : { 
+      "battery" : "Bateria" 
+    }, 
+    "settings" : "Bateria", 
+    "title" : "Bateria Tonkeeper", 
+    "transactions" : { 
+      "charges_per_action" : { 
+        "few" : "≈ {count} cobranças por {transactionName}", 
+        "many" : "≈ {count} cobranças por {transactionName}", 
+        "one" : "≈ {count} cobranças por {transactionName}", 
+        "other" : "≈ {count} cobranças por {transactionName}" 
+      }, 
+      "description" : "As transações selecionadas serão pagas pela Tonkeeper Battery.", 
+      "settings" : "Configurações da bateria", 
+      "supported" : "Transações suportadas", 
+      "title" : "Transações", 
+      "types" : { 
+        "jetton" : "Transferências jetton", 
+        "nft" : "Transferências NFT", 
+        "swap" : "Swaps|Trocas", 
+        "ton" : "Transferências TON" 
+      }, 
+      "type" : { 
+        "swap" : "Swap|Troca", 
+        "transfer" : "Transferir" 
+      }, 
+      "will_be_paid" : "Será pago: {enabledTransactions}" 
+    } 
+  }, 
+  "biometria" : { 
+    "android" : { 
+      "face_recognition" : "Reconhecimento facial", 
+      "face_recognition_genitive" : "Reconhecimento facial", 
+      "face_recognition_instrumental" : "Reconhecimento facial", 
+      "impressão digital" :"Impressão digital", 
+      "fingerprint_genitive" : "Impressão digital", 
+      "fingerprint_instrumental" : "Impressão digital" 
+    }, 
+    "padrão" : "Biometria", 
+    "default_accusative" : "Biometria", 
+    "default_genitive" : "Biometria", 
+    "default_instrumental" : "Biometria", 
+    "ios" : { 
+      "face_recognition" : "Face ID", 
+      "face_recognition_genitive" : "Face ID", 
+      "face_recognition_instrumental" : "Face ID", 
+      "fingerprint" : "Impressão Digital", 
+      "fingerprint_genitive" : "Impressão Digital",
+      "fingerprint_instrumental" : "Impressão Digital" 
+    } 
+  }, 
+  "bluetooth" : { 
+    "permissions_alert" : { 
+      "cancel" : "Cancelar", 
+      "message" : "Ative as permissões do Bluetooth nas suas configurações para usar este recurso", 
+      "open_settings" : "Abrir configurações", 
+      "title" : "Permissões do Bluetooth" 
+    }, 
+    "powered_off_alert" : { 
+      "cancel" : "Cancelar", 
+      "message" : "Ative o Bluetooth para usar este recurso", 
+      "open_settings" : "Abrir configurações", 
+      "title" : "O Bluetooth está desligado" 
+    } 
+  }, 
+  "browser" : { 
+    "about_dapps_caption" : "Explore aplicativos e serviços onde você pode usar o Tonkeeper para fazer login e fazer pagamentos.", 
+    "about_dapps_learn_more" : "Saiba mais", 
+    "about_dapps_title" : "Use o Tonkeeper com todos os Aplicativos e serviços TON", 
+    "actions" : { 
+      "copy_link" : "Copiar link", 
+      "disconnect" : "Desconectar", 
+      "mute" : "Silenciar", 
+      "refresh" : "Atualizar", 
+      "share" : "Compartilhar" 
+    }, 
+    "apps_all" : "Todos", 
+    "connected" : "Conectado", 
+    "connected_empty_text" : "Explore aplicativos e serviços no navegador Tonkeeper.", 
+    "connected_empty_title" : "Os aplicativos conectados serão exibidos aqui", 
+    "connected_title" : "Conectado", 
+    "empty_search" : "Sua pesquisa não retornou resultados", 
+    "explore" : "Explorar", 
+    "explore_all" : "Explorar tudo", 
+    "more_description" : "Mercados, bolsas e muito mais", 
+    "more_title" : "Explorar todos os serviços", 
+    "open_link" : "Abrir link", 
+    "popular_title" : "Popular", 
+    "remove_alert" : { 
+      "approve_button" : "Remover", 
+      "title" : "Remover “{name}”?" 
+    }, 
+    "search_label" : "Pesquisar ou inserir endereço", 
+    "start_typing" : "Digitar um endereço ou pesquisar na web", 
+    "title" : "Navegador",
+    "web_search_title" : "Pesquisa do {searchEngine}" 
+  }, 
+  "buy_ton" : { 
+    "subtitle" : "Instantaneamente com Cartão de Crédito", 
+    "title" : "Compre TON" 
+  }, 
+  "cancel" : "Cancelar", 
+  "chart" : { 
+    "check_connection" : "Verifique sua conexão e tente novamente.", 
+    "no_internet" : "Sem conexão com a internet", 
+    "periods" : { 
+      "1D" : "D", 
+      "1H" : "H", 
+      "1M" : "M", 
+      "1Y" : "Y", 
+      "6M" : "6M", 
+      "7D" : "W" 
+    },
+    "price" : "Preço" 
+  }, 
+  "check_words_caption" : "Para verificar se você escreveu sua frase de recuperação corretamente, insira as %{wordNum1}ª, %{wordNum2}ª e %{wordNum3ª palavras.", 
+  "check_words_success" : "Parabéns! Você configurou sua carteira", 
+  "check_words_title" : "Então, vamos verificar", 
+  "choose_country" : { 
+    "auto" : "Automático", 
+    "cancel" : "Cancelar", 
+    "empty_placeholder" : "Sua pesquisa não retornou resultados", 
+    "search" : "Pesquisar", 
+    "title" : "Escolha seu país" 
+  }, 
+  "choose_currency" : { 
+    "currencies" : { 
+      "AED" : "Dirham dos Emirados Árabes Unidos", 
+      "BDT" : "Taka de Bangladesh", 
+      "BRL" : "Real Brasileiro", 
+      "BYN": "Rublo bielorrusso", 
+      "CAD": "Dólar canadense", 
+      "CHF": "Franco suíço", 
+      "CNY": "Yuan chinês", 
+      "EUR": "Euro", 
+      "GBP": "Libra esterlina britânica", 
+      "GEL": "Lari georgiano", 
+      "IDR": "Rupia indonésia", 
+      "ILS": "Shekel israelense", 
+      "INR": "Rupia indiana", 
+      "IRR": "Rial iraniano", 
+      "JPY": "Iene japonês", 
+      "KRW": "Won sul-coreano", 
+      "KZT": "Tenge cazaque", 
+      "NGN": "Naira nigeriana", 
+      "RUB": "Rublo russo", 
+      "THB": "Baht tailandês", 
+      "TON": "Toncoin", 
+      "TRY": "Lira turca", 
+      "UAH": "Hryvnia ucraniana", 
+      "USD" : "Dólar dos Estados Unidos", 
+      "UZS" : "Soma uzbeque", 
+      "VND" : "Dong vietnamita" 
+    }, 
+    "header_title" : "Moeda primária" 
+  }, 
+  "choose_wallets" : { 
+    "already_added" : "Já adicionado", 
+    "subtitle" : "Escolha as carteiras que deseja adicionar.", 
+    "title" : "Escolha as carteiras", 
+    "tokens" :"tokens", 
+    "w5_subtitle" : "Taxas mais baixas de blockchain, transações sem gás e multitransferências.", 
+    "w5_subtitle_link" : "Saiba mais" 
+  }, 
+  "confirm" : "Confirmar", 
+  "confirm_renew_all_domains_title" : "Confirmar ação", 
+  "confirm_sending_amount" : "Valor", 
+  "confirm_sending_fee" : "Taxa", 
+  "confirm_sending_inactive_warn_about" : "O que você deve fazer", 
+  "confirm_sending_inactive_warn_description" : "Não prossiga se você espera que a mágica do blockchain aconteça. Ela não acontecerá.", 
+  "confirm_sending_inactive_warn_title" : "Contrato inativo",
+  "confirm_sending_liquid_warn_description": "Você não receberá mais recompensas do TON Staked enviado. O novo proprietário começará a receber recompensas.", 
+  "confirm_sending_liquid_warn_title": "Observação", 
+  "confirm_sending_message": "Comentário", 
+  "confirm_sending_method_title": "Enviar seus fundos para {name}?", 
+  "confirm_sending_recipient": "Destinatário", 
+  "confirm_sending_recipient_address": "Endereço do destinatário", 
+  "confirm_sending_sent_caption_btc": "Sua transação será enviada para a rede e será processada em uma hora.", 
+  "confirm_sending_sent_caption_ton": "Sua transação será enviada para a rede e será processada em alguns segundos.", 
+  "confirm_sending_submit": "Confirmar e enviar", 
+  "confirm_sending_title" : "Confirmar envio", 
+  "confirmSendModal" : { 
+    "network_fee" : "Taxa de rede", 
+    "refund" : "Reembolso", 
+    "title" : "Confirmar ação", 
+    "title_multiwallets" : "Ação para %{walletName}", 
+    "total_risk" : "Total: {totalAmount}", 
+    "to_your_address" : "Para seu endereço", 
+    "transaction_type" : { 
+      "burn" : "Queimar", 
+      "receive" : "Receber", 
+      "send" : "Enviar" 
+    }, 
+    "wallet" : "Carteira:", 
+    "will_be_paid_with_battery" : "Será pago com bateria" 
+  }, 
+  "continue" : "Continuar", 
+  "copied" : "Copiado", 
+  "copy_error_log" : "Copiar log de erros", 
+  "create_pin_current_title" : "Inserir atual passcode", 
+  "create_pin_new_title" : "Criar nova senha", 
+  "create_pin_repeat_title" : "Digitar senha novamente", 
+  "create_wallet_caption" : "Recomendamos fortemente que você anote a frase de recuperação porque é a única maneira de ter acesso e recuperar sua carteira em caso de perda do dispositivo. Não a envie para si mesmo por e-mail nem faça uma captura de tela. É mais seguro mantê-la offline.", 
+  "create_wallet_continue_button" : "Continuar", 
+  "create_wallet_generated" : "Sua carteira acabou de ser criada!", 
+  "create_wallet_generating" : "Criando sua carteira...",
+  "create_wallet_title": "Pegue uma caneta e um pedaço de papel", 
+  "customize": "Personalizar", 
+  "customize_modal": { 
+    "save": "Salvar", 
+    "subtitle": "O nome e o ícone da carteira são armazenados localmente no seu dispositivo.", 
+    "title": "Personalize sua carteira", 
+    "wallet_name": "Nome da carteira" 
+  }, 
+  "decryption_error": "Erro de descriptografia", 
+  "deploy_contract_button": "Confirmar e implantar", 
+  "deploy_contract_title": "Implantar contrato",
+  "disable_nft_marketplace_banner_description" : "Coletar e trocar.", 
+  "dns_addresses" : { 
+    "few" : "{count} endereços", 
+    "many" : "{count} endereços", 
+    "one" : "{count} endereços", 
+    "other" : "{count} endereços" 
+  }, 
+  "dns_address_linked" : "Endereço vinculado", 
+  "dns_address_unlinked" : "Endereço desvinculado", 
+  "dns_alert_expiring_many" : { 
+    "few" : "Você tem {count} domínios expirando. Renove todos até {untilDate}.", 
+    "many" : "Você tem {count} domínios expirando. Renove todos até {untilDate}.", 
+    "one" : "Você tem {count} domínios expirando. Renove todos até {untilDate}.", 
+    "other" : "Você tem {count} domínios expirando. domínios. Renovar tudo até {untilDate}." 
+  }, 
+  "dns_alert_expiring_one" : "{domain} expira em {count} dias. Renove até {untilDate}.", 
+  "dns_current_address" : "Seu endereço atual", 
+  "dns_expiration_date" : "Data de expiração", 
+  "dns_link_title" : "Confirmar transação", 
+  "dns_on_sale_text" : "O domínio está à venda no mercado agora. Para transferência, você deve removê-lo da venda primeiro.", 
+  "dns_renew_all_until_btn" : "Renovar tudo até {untilDate}", 
+  "dns_renew_in_progress_btn" : "Renovação do domínio em andamento…", 
+  "dns_renew_toast_success" : "Domínio renovado", 
+  "dns_renew_until_btn" : "Renovar até {untilDate}", 
+  "dns_renew_valid_caption" : { 
+    "one" : "Expira em {count} dia", 
+    "other" : "Expira em {count} dias" 
+  }, 
+  "dns_replace_button" : "Substituir", 
+  "dns_replace_description" : "Adicionar endereço de carteira ao qual o domínio '{{'domain'}}' será vinculado.", 
+  "dns_replace_save" : "Salvar", 
+  "dns_unlink_title" : "Confirmar desvinculação", 
+  "dns_wallet_address" : "Endereço de carteira", 
+  "domains_renewed" : "Domínios renovados", 
+  "edit_coins_add" : "Adicionar", 
+  "edit_coins_added" : "Adicionado", 
+  "edit_coins_added_toast" : "Adicionado", 
+  "edit_coins_hide" : "Ocultar", 
+  "edit_coins_title" : "Adicionar criptomoeda",
+  "encryptedComments" : { 
+    "encryptedComment" : "Comentário criptografado", 
+    "encryptedCommentModal" : { 
+      "button" : "Descriptografar o comentário", 
+      "checkboxLabel" : "Não mostrar novamente", 
+      "description" : "O comentário foi criptografado pelo remetente e só pode ser descriptografado por você. Tenha cuidado com o conteúdo e cuidado com golpes.", 
+      "title" : "Comentário criptografado" 
+    }, 
+    "show" : "Mostrar" 
+  }, 
+  "error_network" : "Erro de rede", 
+  "error_occurred" : "Ocorreu um erro",
+  "exchange_method_dont_show_again" : "Não mostrar novamente", 
+  "exchange_method_open_warning" : "Você está abrindo um aplicativo externo não operado pelo Tonkeeper.", 
+  "exchange_modal" : { 
+    "buy" : "Comprar", 
+    "hide" : "Ocultar", 
+    "other_ways_to_buy" : "Outras maneiras de comprar", 
+    "sell" : "Vender", 
+    "show_all" : "Mostrar tudo", 
+    "title" : "Comprar ou vender" 
+  }, 
+  "exchange" : { 
+    "not_exists" : "ID de troca inválida" 
+  }, 
+  "exchange_other_ways" : "Outras maneiras de comprar ou vender TON", 
+  "exchange_telegram_bot" : "TELEGRAM BOT", 
+  "exchange_title" : "Comprar TON", 
+  "expiring_domains" : "Domínios expirando", 
+  "finish_setup" : { 
+    "backup" : "Faça backup da frase de recuperação da carteira", 
+    "done_button" : "Concluído", 
+    "enable_notifications" : "Habilite notificações de transação", 
+    "header_title" : "Conclua a configuração", 
+    "join_tg" : "Entre no canal Tonkeeper", 
+    "use_biometry" : "Use {name} para aprovar a transação" 
+  }, 
+  "form_optional_indicator" : "Opcional", 
+  "gasless" : { 
+    "switch_label" : "Toque para pagar em {currency}" 
+  }, 
+  "import_add_wallet" : "Adicione carteira", 
+  "import_add_wallet_description" : "Crie uma nova carteira ou adicione uma existente.", 
+  "import_existing_wallet" : "Carteira existente", 
+  "import_existing_wallet_description" : "Importe uma carteira com 24 palavras secretas de recuperação", 
+  "import_new_wallet" : "Nova carteira", 
+  "import_new_wallet_description": "Criar nova carteira", 
+  "import_signer": "Conectar com o Signer", 
+  "import_signer_description": "Completamente offline, isolado, todos os recursos do TON", 
+  "import_wallet_caption": "Para restaurar o acesso à sua carteira, insira as 24 palavras secretas de recuperação fornecidas a você quando criou sua carteira.", 
+  "import_wallet_reset_caption": "Restaure o acesso à sua carteira\n8inserindo as 24 palavras secretas que você anotou ao criar a carteira.", 
+  "import_wallet_title": "Insira sua\nfrase de recuperação",
+  "import_wallet_wrong_words_err": "Frase incorreta", 
+  "indexer_latency_error": "Erro de envio, tente novamente mais tarde", 
+  "info_about_inactive_back": "Voltar", 
+  "info_about_inactive_desc1": "O Tonkeeper não sabe se este endereço é uma carteira ou um contrato inteligente.", 
+  "info_about_inactive_desc2": "Se você deseja simplesmente depositar dinheiro em uma carteira, pode prosseguir.", 
+  "info_about_inactive_desc3_1": "Se você espera uma ação automática de um contrato inteligente", 
+  "info_about_inactive_desc3_2": "— sua transferência pode ficar presa nesse endereço.",
+  "info_about_inactive_desc3_bold" : " NÃO prossiga ", 
+  "info_about_inactive_title" : "Contrato inativo", 
+  "intro_continue_btn" : "Comece", 
+  "intro_item1_caption" : "Graças à arquitetura exclusiva da The Open Network, as transações TON são liquidadas em segundos.", 
+  "intro_item1_title" : "Velocidade de classe mundial", 
+  "intro_item2_caption" : "O Tonkeeper armazena suas chaves criptográficas em seu dispositivo. Todas as negociações são executadas por meio de protocolos descentralizados para que suas criptomoedas nunca acabem nas mãos de bolsas centralizadas.", 
+  "intro_item2_title" : "Segurança de ponta a ponta", 
+  "intro_item3_caption" : "-", 
+  "intro_item3_title" : "-", 
+  "intro_title" : "Bem-vindo ",
+  "it_expires_on" : "Expira em",
+  "jetton_buy_tether" : "Comprar USD₮",
+  "jetton_id" : "Token ID: {jettonAddress}",
+  "jetton_id_copied" : "Token ID Copiado",
+  "jetton_locked_till" : "Bloqueado até {date}", 
+  "jetton_migrate_tether" : "Trocar jUSDT para USD₮", 
+  "jetton_name" : "Token {name}", 
+  "jetton_open_explorer" : "Ver detalhes", 
+  "jetton_price" : "Preço:", 
+  "jettons_list_title" : "Tokens", 
+  "jettons_manage_tokens" : "Gerenciar tokens", 
+  "jettons_show_jettons" : "Mostrar tokens na carteira", 
+  "jetton_token" : "Token", 
+  "language" : { 
+    "language_alert" : { 
+      "cancel" : "Cancelar", 
+      "open" : "Configurações", 
+      "title" : "Para alterar o idioma do aplicativo, vá para as Configurações do dispositivo" 
+    }, 
+    "languagesList" : { 
+      "en" : "Inglês", 
+      "es" : "Espanhol", 
+      "id" : "Indonésio", 
+      "pt" : "Português-Br",
+      "ru" : "Russo", 
+      "system" : "Sistema", 
+      "tr" : "Turco", 
+      "uk" : "Ucraniano", 
+      "uz" : "Uzbeque",
+      "zh-Hans" : "Chinês"
+    }, 
+    "list_item" : { 
+      "title" : "Idioma", 
+      "value" :"Inglês" 
+    }, 
+    "title" : "Idioma" 
+  }, 
+  "later" : "Mais tarde", 
+  "ledger" : { 
+    "confirm_title" : "Confirmar ação", 
+    "confirm_tx" : "Confirme sua transação na Ledger", 
+    "connect" : "Conecte a Ledger ao seu dispositivo via Bluetooth", 
+    "connect_title" : "Conecte a Ledger", 
+    "install_ton_app" : "Instale o aplicativo TON", 
+    "open_ton_app" : "Desbloqueie e abra o aplicativo TON", 
+    "operation_not_supported" : "A operação não está disponível para carteiras Ledger. Selecione outra carteira e tente novamente." 
+  }, 
+  "legal_font_license" : "Fonte Montserrat",
+  "legal_header_title" : "Legal", 
+  "legal_licenses_title" : "Licenças", 
+  "legal_privacy" : "Política de privacidade", 
+  "legal_terms" : "Termos de serviço", 
+  "link_copied" : "Link copiado", 
+  "loading" : "Carregando", 
+  "logout_modal" : { 
+    "agreement" : "Tenho uma cópia de backup da frase de recuperação para", 
+    "backup_button" : "Fazer backup", 
+    "caption" : "As chaves da carteira serão apagadas deste dispositivo.", 
+    "delete_button" : "Excluir dados da carteira", 
+    "delete_caption" : "As chaves da carteira e todos os dados pessoais serão apagados deste dispositivo.", 
+    "delete_title" : "Excluir dados da carteira", 
+    "logout_button" : "Sair", 
+    "title" : "Sair" 
+  }, 
+  "manage_other_coins" : "Gerenciar minhas criptos", 
+  "migration_cancel_btn" : "Atualizar mais tarde", 
+  "migration_caption" : "O Tonkeeper apresenta um novo formato de carteira que suporta pagamentos de assinatura. Seu saldo será transferido para um novo endereço. Sua frase de recuperação permanecerá a mesma.", 
+  "migration_failed" : "A migração falhou. Não foi possível transferir seu saldo.", 
+  "migration_fee_info" : "Taxa de rede ≈%{tonFee} TON (%{fiatFee})", 
+  "migration_in_progress" : "Migração para a Wallet v4 em andamento", 
+  "migration_migrate_btn" : "Atualizar carteira", 
+  "migration_new_wallet" : "Novo endereço", 
+  "migration_old_wallet" : "Endereço antigo", 
+  "migration" : { 
+    "subtitle" : "Desbloqueie a carteira para continuar.", 
+    "title" : "Migre sua carteira para a nova versão do Tonkeeper", 
+    "with_biometry" : "Continue com {type}", 
+    "with_passcode" : "Digite a senha" 
+  }, 
+  "migration_title" : "Atualize sua carteira", 
+  "nft_about_collection" : "Sobre a coleção", 
+  "nft_about_dns" : "TON DNS é um serviço que permite aos usuários atribuir um nome legível a carteiras de criptomoedas, contratos inteligentes e sites. \n\nCom o TON DNS, o acesso a serviços descentralizados é análogo ao acesso a sites na internet.", 
+  "nft_actions" : { 
+    "hide_and_report" : "Ocultar e denunciar spam", 
+    "hide" :{ 
+      "collection" : "Ocultar coleção", 
+      "nft" : "Ocultar NFT" 
+    }, 
+    "view_on_explorer" : "Ver no Tonviewer" 
+  }, 
+  "nft_browse_markets" : "Navegar pelos mercados", 
+  "nft_chain" : "Cadeia", 
+  "nft_change_owner_title" : "Alterar proprietário da coleção", 
+  "nft_change_theme" : "Alterar tema", 
+  "nft_collection" : "Coleção", 
+  "nft_collection_name" : "Nome da coleção", 
+  "nft_confirm_operation" : "Confirmar",
+  "nft_contract_address": "Endereço do contrato", 
+  "nft_deploy_collection_title": "Criar coleção de NFT", 
+  "nft_details": "Detalhes", 
+  "nft_diamonds_description": "Os diamantes TON possuem o poder de alterar o tema da sua carteira Tonkeeper e combiná-lo com a cor do seu NFT.", 
+  "nft_features": "Recursos", 
+  "nft_fee": "Taxa", 
+  "nft_fee_and_royalties": "Taxas e royalties", 
+  "nft_hide_details": "Ocultar detalhes", 
+  "nft_item_deploy_title": "NFT Mint", 
+  "nft_item_name": "Nome NFT", 
+  "nft_link_domain_button": "Vincular domínio", 
+  "nft_link_domain_caption": "Depois de vincular o domínio, você poderá transferi-lo e usá-lo como um alias para seu endereço.", 
+  "nft_link_domain_mismatch_warn": "O domínio não está vinculado ao seu endereço atual. Tenha cuidado com transações para este domínio.", 
+  "nft_link_username_button": "Nome do link", 
+  "nft_link_username_caption": "Depois de vincular o nome, você poderá transferi-lo e usá-lo como um alias para seu endereço.", 
+  "nft_link_username_mismatch_warn": "O nome não está vinculado ao seu endereço atual. Tenha cuidado com transações com este nome.", 
+  "nft_marketplace_address" : "Mercado", 
+  "nft_marketplace_banner_description" : "Compre, venda, colete e troque.", 
+  "nft_marketplace_banner_title" : "Seus tokens NFT serão armazenados aqui", 
+  "nft_marketplaces" : "Descubra", 
+  "nft_marketplaces_title" : "Mercados NFT", 
+  "nft_metadata" : "Metadados", 
+  "nft_more" : "Mais", 
+  "nft_new_owner_address" : "Endereço do novo proprietário", 
+  "nft_on_sale" : "À venda", 
+  "nft_on_sale_text" : "NFT está à venda no mercado agora. Para transferência, você deve removê-lo da venda primeiro.", 
+  "nft_open_in_marketplace": "Ver no Mercado NFT", 
+  "nft_operations_expired": "Tempo limite da solicitação esgotado, tente novamente", 
+  "nft_operation_slide_to_confirm": "Deslize para confirmar", 
+  "nft_operation_success": "Concluído", 
+  "nft_owner_address": "Proprietário", 
+  "nft_price": "Preço", 
+  "nft_proceeds": "Seus lucros",
+  "nft_properties": "Propriedades", 
+  "nft_royalty": "Royalty", 
+  "nft_royalty_address": "Endereço de royalties", 
+  "nft_sale_cancel_title": "Remover da venda", 
+  "nft_sale_place_title": "Vender NFT", 
+  "nft_show_details": "Mostrar detalhes", 
+  "nft_single_nft": "NFT único", 
+  "nft_standard": "Token padrão", 
+  "nft_title": "NFTs", 
+  "nft_token_id": "ID do token", 
+  "nft_transaction_head_placeholder": "NFT", 
+  "nft_transfer_comment": "Comentário",
+  "nft_transfer" : { 
+    "confirm" : { 
+      "fee" : { 
+        "label" : "Taxa", 
+        "refund_label" : "Reembolso", 
+        "value" : "≈ {value} TON" 
+      } 
+    }, 
+    "title" : "Transferência NFT" 
+  }, 
+  "nft_transfer_description" : "O NFT será enviado para este endereço. Tenha cuidado ao enviar um NFT para outro usuário.", 
+  "nft_transfer_dns" : "Transferir", 
+  "nft_transfer_nft" : "Transferir", 
+  "nft_transfer_recipient" : "Destinatário", 
+  "nft_transfer_title" : "Transferir NFT", 
+  "nft_unlink_domain_button" : "Visualizar com '{{'address'}}'", 
+  "nft_unnamed_collection" : "Coleção sem nome", 
+  "nft_view_in_explorer" : "Visualizar em explorer", 
+  "nokyc" : "Sem KYC", 
+  "notcoin" : { 
+    "all" : "Troque tudo no Tonkeeper Pro", 
+    "burn_not_available" : { 
+      "hours" : "A troca estará disponível em {count} horas", 
+      "minutes" : "A troca estará disponível em {count} minutos", 
+      "seconds" : "A troca estará disponível em {count} segundos" 
+    }, 
+    "count" : "Número de vouchers", 
+    "count_max" : "Máximo de 4 por troca", 
+    "exchange" : "Troque vouchers para NOT", 
+    "exchange_all" : "Troque tudo no Tonkeeper Pro", 
+    "exchange_subtitle" : "NOT estará disponível no seu saldo logo após a troca.", 
+    "exchange_title" : "Troque seus vouchers para NOT", 
+    "exchange_to_not" : "Troque para NOT", 
+    "name" : "Notcoin", 
+    "not_vouchers" : "NOT vouchers", 
+    "open" : "Abrir", 
+    "open_bot" : "Abrir Notcoin Bot", 
+    "slogan" : "Probably nothing", 
+    "total_amount" : "Valor total", 
+    "verify_subtitle" : "A verificação pode levar algumas horas.", 
+    "verify_title" : "Conecte a carteira ao Notcoin Bot para verificar a queima" 
+  }, 
+  "notifications" : { 
+    "alert" : { 
+      "cancel" : "Cancelar",
+      "description": "O endereço do link da notificação não corresponde ao endereço do aplicativo.", 
+      "open": "Abrir mesmo assim", 
+      "title": "Tem certeza de que deseja abrir um link externo?" 
+    }, 
+    "allow_notifications": "Habilitar notificações", 
+    "apps": "Aplicativos", 
+    "apps_description": "Notificações de aplicativos conectados na sua atividade", 
+    "disconnect_app": "Desconectar {app_name}", 
+    "disconnected_app": "Aplicativo desconectado", 
+    "earlier": "Anteriormente", 
+    "from_connected": "De aplicativos conectados",
+    "muted" : "As notificações foram silenciadas", 
+    "mute_notifications" : "Silenciar notificações", 
+    "notifications" : "Notificações", 
+    "placeholder" : { 
+      "description" : "Explore aplicativos e serviços no navegador Tonkeeper.", 
+      "title" : "As notificações serão mostradas aqui" 
+    }, 
+    "report" : "Denunciar" 
+  }, 
+  "notifications_disabled_action" : "Abrir configurações", 
+  "notifications_disabled_description" : "Você desativou as notificações nas configurações do seu telefone. Para ativar as notificações, vá para Configurações neste dispositivo.", 
+  "notifications_disabled_title" : "As notificações estão desabilitadas", 
+  "notifications_not_supported" : "As notificações não são suportadas no seu dispositivo", 
+  "notifications_switch_title" : "Notificações push", 
+  "notifications_title" : "Notificações", 
+  "notification_switch_description" : "Receba notificações quando receber TON, tokens e NFTs. Notificações de aplicativos conectados.", 
+  "notify_connection_err_caption": "{host} não está respondendo. Tente novamente mais tarde.", 
+  "notify_connection_err_caption_few": "{hosts} e {lastHost} não estão respondendo. Tente novamente mais tarde.", 
+  "notify_connection_err_title": "Não foi possível conectar ao servidor", 
+  "notify_incorrect_time_err_caption": "Nas configurações do dispositivo, ative a hora e a data automáticas. Quando o horário não é definido automaticamente, isso pode afetar as transferências de fundos.", 
+  "notify_incorrect_time_err_title": "Hora e data estão incorretas", 
+  "notify_no_signal_caption": "Verifique sua conexão de internet.", 
+  "notify_no_signal_title": "Sem sinal", 
+  "old_wallet_error": "Use a carteira com a versão v4R2", 
+  "pairSigner": { 
+    "about": "Sobre o Signer", 
+    "open_signer": "Abrir o Signer neste dispositivo", 
+    "subtitle": "Abrir o Signer » Selecionar a chave necessária » Ler código QR", 
+    "title": "Ler código QR" 
+  }, 
+  "passcode_changed": "Senha alterada", 
+  "paste": "Colar", 
+  "pin_enter_faceid_err": "Falha na verificação biométrica", 
+  "pin_enter_skip_faceid_err": "A biometria é necessária", 
+  "plataforma" :{ 
+    "android" : { 
+      "capitalized_face_recognition" : "Reconhecimento facial", 
+      "capitalized_fingerprint" : "Impressão digital", 
+      "face_recognition" : "reconhecimento facial", 
+      "face_recognition_genitive" : "reconhecimento facial", 
+      "fingerprint" : "impressão digital", 
+      "fingerprint_genitive" : "impressão digital" 
+    }, 
+    "ios" : { 
+      "capitalized_face_recognition" : "Reconhecimento Facial", 
+      "capitalized_fingerprint" : "Impressão digital",
+      "face_recognition": "Reconhecimento Facial", 
+      "face_recognition_genitive": "Reconhecimento Facial", 
+      "fingerprint": "Impressão digital", 
+      "fingerprint_genitive": "Impressão digital" 
+    } 
+  }, 
+  "programmable_nfts": { 
+    "alert": { 
+      "cancel": "Cancelar", 
+      "description": "Visite este link externo somente se você confiar no autor da coleção.\n\n'{{'uri'}}'", 
+      "open": "Abrir mesmo assim", 
+      "title": "Tem certeza de que deseja abrir um link externo?" 
+    } 
+  }, 
+  "pro_subscription_is_active" : "Assinatura Pro está ativa.", 
+  "pro_trial_is_active" : "Teste Pro está ativo.", 
+  "purchases" : { 
+    "screen_title" : "Compras" 
+  }, 
+  "receive_address_title" : "Ou use o endereço da carteira", 
+  "receive_copy" : "Copiar", 
+  "receiveModal" : { 
+    "copy" : "Copiar", 
+    "receive" : "Receber", 
+    "receive_description" : "Envie somente {tokenName} e tokens na rede TON para este endereço, ou você poderá perder seus fundos.", 
+    "receive_title" : "Receba {tokenName}", 
+    "receive_ton" : "Envie somente Toncoin TON e tokens na rede TON para este endereço, ou você poderá perder seus fundos." 
+  }, 
+  "receive_qr_title" : "Mostrar código QR para receber", 
+  "receive_received_title" : "Você recebeu\n{amount} {currency}", 
+  "receive_share" : "Compartilhar", 
+  "receive_title" : "Receber {currency}", 
+  "receive_ton_and_jettons" : "Receba TON e outros tokens", 
+  "recovery_phrase" : { 
+    "caption" : "Anote estas palavras com seus números e guarde-as em um lugar seguro.", 
+    "check_button" : "Verificar backup", 
+    "copy_button" : "Copiar", 
+    "title" : "Frase de recuperação" 
+  }, 
+  "refresh_app" : "Reiniciar", 
+  "region_nokyc" : "Águas neutras", 
+  "reminder_notifications_caption" : "Receba notificações quando receber TON, tokens e NFTs.", 
+  "reminder_notifications_enable_button": "Habilitar notificações",
+  "reminder_notifications_later_button" : "Mais tarde", 
+  "reminder_notifications_title" : "Receba notificações instantâneas", 
+  "renew_in_progress" : "Renovação em andamento…", 
+  "renew_progress_of" : "{current} de {count}", 
+  "require_create_wallet_modal_caption" : "Você precisa de uma carteira conectada para usar\nTonkeeper. Crie uma nova carteira ou importe uma existente.", 
+  "require_create_wallet_modal_create_new" : "Criar nova carteira", 
+  "require_create_wallet_modal_import" : "Importar carteira existente", 
+  "require_create_wallet_modal_title" : "Vamos configurar sua carteira",
+  "restake_banner" : { 
+    "stake_into_step" : "Stake disponível TON em Tonstakers.", 
+    "stake_into_tonstakers_action" : "Stake em Tonstakers", 
+    "title" : "Ganhe mais TON com %apy em staking líquido de Tonstakers", 
+    "unstake_action_all" : "Desfazer o stake de {amount}", 
+    "unstake_action_manual" : "Digite manualmente", 
+    "unstake_step" : "Desfazer o stake de TON do seu provedor de staking atual.", 
+    "wait_step" : "Aguarde até que seu TON fique disponível.", 
+    "wait_step_collect" : "Coletar", 
+    "wait_step_cooldown" : "Seu TON estará disponível em breve. Você poderá coletá-lo em breve.", 
+    "wait_step_pending" : "Seu TON estará disponível em {0, number}uration. Após esse tempo, você pode colete-os.", 
+    "wait_step_withdraw" : "Colete TON disponíveis do seu provedor de staking anterior." 
+  }, 
+  "scan_qr_open_settings" : "Abrir configurações", 
+  "scan_qr_permission_error" : "Permitir acesso à câmera para escanear códigos QR", 
+  "scan_qr_title" : "Escanear código QR", 
+  "secret_words_caption" : "Anote estas 24 palavras na ordem abaixo e guarde-as em um lugar secreto e seguro.", 
+  "secret_words_title" : "Sua frase de recuperação", 
+  "security_change_passcode" : "Alterar senha", 
+  "security_lock_screen_switch" : "Bloquear tela", 
+  "security_lock_screen_tip" : "Exigir senha para visualizar o conteúdo da carteira.", 
+  "security_migration_caption" : "Agora seu saldo e todas as operações estão protegidos por uma senha. Você também pode acelerar com a verificação biométrica.", 
+  "security_migration_skip_button" : "Não atualizar agora", 
+  "security_migration_submit_button" : "Atualizar configurações de segurança", 
+  "security_migration_title": "Atualizar segurança da carteira", 
+  "security_reset_passcode": "Redefinir senha", 
+  "security_title": "Segurança", 
+  "security_use_biometry_switch": "Usar {biometryType}", 
+  "security_use_biometry_tip": "Você sempre pode desbloquear sua carteira com uma senha.", 
+  "select_wallet_for_authorization": "Selecionar carteira para autorização", 
+  "send_address_placeholder": "Endereço ou nome", 
+  "send_all_warning_title":"Tem certeza de que deseja enviar todo o seu saldo?", 
+  "send_build_tx_error": "Sua transação falhou", 
+  "send_comment_label": "Adicione um comentário", 
+  "send_fee_estimation_error": "Falha ao calcular a taxa", 
+  "send_get_wallet_info_error": "Falha ao obter informações da carteira", 
+  "send_insufficient_funds": "Fundos insuficientes", 
+  "send_invalid_recipient_caption": "O domínio não existe ou o endereço da carteira não está vinculado a ele", 
+  "send_invalid_recipient_title": "Destinatário inválido",
+  "send_lockup_warning_caption": "Verifique se você está enviando para o endereço permitido.\n\nA taxa será deduzida mesmo se a transação falhar.", 
+  "send_lockup_warning_submit_button": "Enviar", 
+  "send_lockup_warning_title": "O valor excede o saldo líquido", 
+  "send_publish_tx_error": "Falha ao enviar a transação", 
+  "send_screen_steps": { 
+    "address": { 
+      "delete_alert_text": "Tem certeza de que deseja excluir «{name}» dos seus favoritos?", 
+      "placeholder": "Endereço ou domínio da carteira", 
+      "recent_label": "Recente", 
+      "suggest_actions": { 
+        "add": "Adicionar aos favoritos", 
+        "delete": "Excluir", 
+        "edit": "Editar favorito", 
+        "hide": "Ocultar" 
+      }, 
+      "suggests_label" : "Favoritos e recentes", 
+      "title" : "Destinatário" 
+    }, 
+    "amount" : { 
+      "insufficient_balance" : "Saldo insuficiente", 
+      "less_than_min" : "Mínimo {minAmount} TON", 
+      "less_than_min_with_symbol" : "Mínimo {minAmount} {symbol}", 
+      "liquid_jetton_note" : "Enviando token de liquidez tsTON", 
+      "max" : "MAX", 
+      "recipient_label" : "Para:", 
+      "remaining" : "Disponível: {amount}", 
+      "title" : "Quantidade" 
+    }, 
+    "comfirm" : { 
+      "action" : "{coin} transferência", 
+      "comment_ascii_text" : "Use apenas caracteres ASCII: dígitos, letras do alfabeto latino e sinais de pontuação.", 
+      "comment_decrypt" : "Descriptografar", 
+      "comment_description": "Será visível para todos.", 
+      "comment_description_encrypted": "Será visível apenas para o destinatário e você.", 
+      "comment_encrypt": "Criptografar comentário", 
+      "comment_label": "Comentário", 
+      "comment_label_encrypted": "Comentário criptografado", 
+      "comment_label_required": "Comentário obrigatório", 
+      "comment_required_text": "Você deve incluir a nota da bolsa para transferência. Sem ela, seus fundos serão perdidos.", 
+      "details_label":"Detalhes", 
+      "details_max_balance_label": "Enviando saldo máximo de {currency}", 
+      "title": "Confirmar ação", 
+      "wallet": "Carteira", 
+      "will_be_paid_with_battery": "Será pago com bateria" 
+    }, 
+    "done": { 
+      "add_favorite": "Salvar endereço nos favoritos", 
+      "address": "Endereço: {address}", 
+      "comment": "Comentário: {comment}", 
+      "description": "Sua transação foi enviada para a rede e será processada em alguns segundos.",
+      "done_label" : "Concluído", 
+      "favorite_saved" : "Salvo nos favoritos", 
+      "fee" : "Taxa: {fee}", 
+      "title" : "{currency} enviada!", 
+      "to" : "Para: {name}" 
+    } 
+  }, 
+  "send_sending_failed" : "Falha no envio", 
+  "send_sending_wrong_time_description" : "Ative a hora e a data automáticas nas configurações do seu dispositivo. Em seguida, tente transferir novamente.", 
+  "send_sending_wrong_time_title" : "Ocorreu um erro", 
+  "send_title" : "Enviar {currency}", 
+  "settings_appearance" : "Tema", 
+  "settings_backup_seed" : "Backup", 
+  "settings_bank_card" : "Cartão de Crédito", 
+  "settings_contact_support" : "Entre em contato conosco", 
+  "settings_delete_account": "Excluir conta", 
+  "settings_delete_alert_button": "Excluir conta e dados", 
+  "settings_delete_alert_caption": "Esta ação excluirá sua conta e todos os dados deste aplicativo.", 
+  "settings_delete_alert_title": "Tem certeza de que deseja excluir sua conta?", 
+  "settings_delete_signer_account": "Excluir conta?", 
+  "settings_delete_watch_account": "Excluir conta de Visualização?", 
+  "settings_delete_watch_account_button": "Excluir", 
+  "settings_faq": "Perguntas frequentes", 
+  "settings_jettons_list": "Tokens", 
+  "settings_legal_documents": "Legal", 
+  "settings_network_alert_title": "Selecionar rede", 
+  "settings_news": "Notícias do Tonkeeper", 
+  "settings_notifications" : "Notificações", 
+  "settings_primary_currency" : "Moeda", 
+  "settings_rate" : "Avaliar o Tonkeeper", 
+  "settings_recovery_phrase" : "Frase de recuperação", 
+  "settings_reset" : "Sair", 
+  "settings_reset_alert_button" : "Sair", 
+  "settings_reset_alert_caption" : "Isso apagará a chave da sua carteira. Certifique-se de ter feito backup da sua frase de recuperação.", 
+  "settings_reset_alert_caption_all" : "Isso apagará as chaves de todas as carteiras. Certifique-se de ter feito backup das suas frases de recuperação.", 
+  "settings_reset_alert_title" : "Sair?", 
+  "settings_reset_alert_title_all" :"Sair de todas as carteiras?", 
+  "settings_search_engine" : "Pesquisar", 
+  "settings_security" : "Segurança", 
+  "settings_subscriptions" : "Assinaturas", 
+  "settings_support" : "Suporte", 
+  "settings_theme" : "Tema", 
+  "settings_theme_names" : { 
+    "blue" : "Azul escuro", 
+    "dark" : "Escuro", 
+    "light" : "Claro", 
+    "system" : "Sistema" 
+  }, 
+  "settings_title" : "Configurações", 
+  "settings_to_mainnet" : "Alternar para a rede principal", 
+  "settings_to_testnet" : "Alternar para a rede de teste",
+  "settings_version" : "Versão", 
+  "settings_wallet_version" : "Endereço ativo", 
+  "setup_biometry_caption" : "{biometryType} permite que você abra sua carteira mais rápido sem precisar\ndigitar sua senha.", 
+  "setup_biometry_enable_button" : "Habilitar {biometryType}", 
+  "setup_biometry_title" : "Login rápido com {biometryType}", 
+  "setup_notifications_caption" : "Receba notificações quando receber\nTON, tokens e NFTs", 
+  "setup_notifications_enable_button" : "Habilitar notificações", 
+  "setup_notifications_title" : "Receba notificações instantâneas", 
+  "signerConfirm" : { 
+    "confirm" : "Confirme sua transação no Signer", 
+    "scan_qr" : "Escaneie o código QR com o Signer", 
+    "scan_signed_qr" : "Escaneie o código QR da transação assinada do Signer", 
+    "step" : "Etapa {value}", 
+    "title" : "Confirmar ação" 
+  }, 
+  "signer_scan_result" : "Digitalizar transação assinada", 
+  "signer_scan_tx_description" : "Abra o Signer e digitalize o código QR com a transação", 
+  "skip" : "Pular", 
+  "spam_action" : "Spam", 
+  "staking" : { 
+    "active" : "Ativo", 
+    "confirm" : { 
+      "address" : { 
+        "label" : "Endereço do destinatário" 
+      }, 
+      "amount" : { 
+        "label" : "Quantia", 
+        "value" : "{value} TON" 
+      }, 
+      "fee" : { 
+        "label" : "Taxa", 
+        "value" : "≈ {value} TON" 
+      }, 
+      "recipient" : { 
+        "label" : "Destinatário" 
+      }, 
+      "withdraw_amount" : { 
+        "label" : "Valor do saque" 
+      } 
+    }, 
+    "confirm_deposit" : "Confirmar e apostar", 
+    "confirm_unstake" : "Confirmar e cancelar aposta", 
+    "deposit" : "Apostar", 
+    "desc_large" : "Participe do staking e ganhe recompensas. O staking ajuda a manter a rede TON.", 
+    "details" : { 
+      "about_pool" : "Detalhes", 
+      "apy" :{ 
+        "highest_tag" : "MAX", 
+        "label" : "APY", 
+        "value" : "≈ {value}%" 
+      }, 
+      "balance" : "Saldo de staking", 
+      "cooldown" : { 
+        "active" : "Ativo", 
+        "desc" : "Período de duas horas aplicado no início de cada ciclo de staking para melhorar o processo de retiradas e depósitos entre os ciclos", 
+        "title" : "Período de espera" 
+      }, 
+      "frequency" : { 
+        "label" : "Frequência de recompensa", 
+        "value" : "A cada {count} horas" 
+      },
+      "links_title" : "Links", 
+      "liquidity_token" : { 
+        "label" : "{token} token de liquidez", 
+        "value" : "Saiba mais" 
+      }, 
+      "min_deposit" : { 
+        "label" : "Depósito mínimo", 
+        "value" : "{value} TON" 
+      }, 
+      "next_cycle" : { 
+        "desc" : "Todas as transações entram em vigor quando o ciclo termina.", 
+        "desc_liquid" : "Solicitações de desativação são concluídas após o término do ciclo.", 
+        "in" : "in", 
+        "message" : "Solicitações de desativação serão processadas após o término do ciclo de validação em {value}", 
+        "reward_title" : "Próxima recompensa", 
+        "title" : "Próximo ciclo" 
+      }, 
+      "note" : "A ativação é baseada em contratos inteligentes de terceiros. O Tonkeeper não é responsável pela experiência de ativação.", 
+      "pendingDeposit" : "Ativação pendente", 
+      "pendingWithdraw" : "Pendente de desativação", 
+      "pendingWithdrawDesc" : "após o fim do ciclo", 
+      "pool_address" : { 
+        "label" : "Endereço do pool" 
+      }, 
+      "readyWithdraw" : "Pronto para desativação", 
+      "socials" : { 
+        "telegram" : "Comunidade", 
+        "twitter" : "Twitter" 
+      }, 
+      "tap_to_collect" : "Toque para coletar" 
+    }, 
+    "estimated_profit" : "{amount} TON – lucro anual\nse você apostar TON hoje", 
+    "estimated_profit_compare" : "Mais lucrativo em {amount} TON por ano do que sua aposta atual", 
+    "get_withdrawal" : "Obter retirada", 
+    "highest_apy" : "APY MÁXIMO", 
+    "jetton_note" : "Quando você aposta TON em um pool {poolName}, você recebe um token chamado {token} que representa sua parte no pool. À medida que o pool acumula lucros, seu {token} representa uma quantia maior de TON.", 
+    "learn_more" : "Saiba mais", 
+    "message" : { 
+      "pendingDeposit" : "{amount} TON staked\n", 
+      "pendingWithdraw" : "{amount} TON untaked\n", 
+      "pendingWithdrawLiquid" : "{amount} TON untaked após o fim do ciclo",
+      "readyWithdraw" : "{amount} TON pronto.\nToque para coletar" 
+    }, 
+    "no_funds" : "Nenhum fundo disponível para desfazer a aposta", 
+    "not_exists" : "Endereço de pool inválido", 
+    "other" : "Outro", 
+    "rewards" : { 
+      "after_top_up" : "Após a aposta", 
+      "current" : "Atual", 
+      "title" : "Seu APY", 
+      "value" : "≈ {value} TON" 
+    }, 
+    "send_staked_ton" : "Apostado TON", 
+    "staked" : "Apostado",
+    "staked_ton" : "Aposta TON", 
+    "staking_desc" : "Depósito mínimo {minStake} TON.\nGanhe até {maxApy}%.", 
+    "staking_pool_desc" : "APY ≈ {apy}%", 
+    "title" : "Aposta", 
+    "title_large" : "Aposta TON", 
+    "top_up" : "Aposta", 
+    "transaction" : "Confirmar ação", 
+    "warning" : { 
+      "about" : "Sobre {name}", 
+      "beta_desc" : "Não somos responsáveis ​​pela estabilidade e experiência de aposta. Use por sua conta e risco.", 
+      "desc" : "Aposta baseada em contratos inteligentes de terceiros. Não somos responsáveis ​​pelo trabalho deles.", 
+      "title" : "Aviso" 
+    }, 
+    "widget_desc" : "APY até {apy}%", 
+    "widget_staking_options" : "Opções de staking", 
+    "widget_title" : "Stake TON", 
+    "withdraw" : "Unstake", 
+    "withdrawal_fee_warning" : { 
+      "continue" : "Continue mesmo assim", 
+      "message" : "Deixe pelo menos '{{'amount'}}' TON no seu saldo.", 
+      "title" : "Você não terá fundos suficientes para sacar" 
+    }, 
+    "withdrawal_request" : "Unstake" 
+  }, 
+  "start_screen" : { 
+    "caption" : "Crie uma nova carteira ou adicione \numa existente", 
+    "create_wallet_button" : "Criar nova carteira", 
+    "import_wallet_button" : "Importar carteira existente" 
+  }, 
+  "stop_watch" : "Excluir conta Watch", 
+  "subscription_back_to_merchant_button" : "Voltar", 
+  "subscription_back_to_merchant_caption" : "A transação está sendo processado. Sua assinatura estará ativa em breve.", 
+  "subscription_back_to_merchant_name" : "Voltar para {merchantName}", 
+  "subscription_back_to_merchant_title" : "Voltar para o canal?", 
+  "subscription_cancel" : "Cancelar assinatura", 
+  "subscription_cancel_alert_cancel_btn" : "Agora não", 
+  "subscription_cancel_alert_caption" : "Se você cancelar agora, ainda poderá acessar sua assinatura até {nextBill}", 
+  "subscription_cancel_alert_submit_btn" : "Sim, cancelar", 
+  "subscription_cancel_alert_title" :"Cancelar assinatura?", 
+  "subscription_expiring" : "Expirando", 
+  "subscription_fee" : "Taxa", 
+  "subscription_next_bill" : "Próxima fatura", 
+  "subscription_open_merchant" : "Abrir no Telegram", 
+  "subscription_period" : "Intervalo", 
+  "subscription_period_custom" : "A cada {period}", 
+  "subscription_period_day" : "Diariamente", 
+  "subscription_period_half_year" : "Semestralmente", 
+  "subscription_period_hour" : "Por hora", 
+  "subscription_period_month" : "Mensalmente", 
+  "subscription_period_quarter" : "Trimestralmente",
+  "subscription_period_week": "Semanalmente", 
+  "subscription_period_weeks": "A cada {count} semanas", 
+  "subscription_period_year": "Anualmente", 
+  "subscription_price": "Preço", 
+  "subscription_sent": "Transação enviada", 
+  "subscriptions_item_caption": "{price} TON, próxima fatura em {nextBill}", 
+  "subscriptions_item_caption_expired": "Expirado em {date}", 
+  "subscriptions_item_caption_expiring": "{price} TON, expirando em {date}", 
+  "subscriptions_section_active": "Ativo", 
+  "subscriptions_section_expired": "Expirado", 
+  "subscription_started": "Assinatura iniciada", 
+  "subscriptions_title": "Assinaturas", 
+  "subscription_subscribe": "Assinar", 
+  "subscription_title": "Subscription", 
+  "subscription_unsubscribe" : "Cancelar inscrição", 
+  "success" : "Sucesso!", 
+  "suspicious" : { 
+    "buttons" : { 
+      "not_spam" : "Não é spam", 
+      "report" : "Denunciar spam" 
+    }, 
+    "label" : { 
+      "full" : "NFT não verificado", 
+      "short" : "Não verificado" 
+    }, 
+    "status_update" : { 
+      "hidden" : { 
+        "collection" : "Coleção oculta", 
+        "nft" : "NFT oculto" 
+      }, 
+      "spam" : { 
+        "collection" : "Coleção marcada como spam", 
+        "nft" : "NFT marcado como spam" 
+      } 
+    } 
+  }, 
+  "suspiciousNFTDetails" : { 
+    "buttons" : { 
+      "not_spam" : "Não é spam", 
+      "report" : "Denunciar Spam" 
+    }, 
+    "paragraphs" : { 
+      "p1" : "Usado para spam. Empregado para enviar mensagens indesejadas e muitas vezes irrelevantes em grande escala.", 
+      "p2" : "Usado para golpes. O nome, a descrição ou a imagem do NFT podem levar os usuários a serem enganados.", 
+      "p3" : "Sabemos pouco sobre o autor e a história deste NFT." 
+    }, 
+    "subtitle" : "O NFT pode não ser seguro para uso por um dos seguintes motivos.", 
+    "title" :"NFT não verificado" 
+  }, 
+  "swap_title" : "Trocar", 
+  "tab_browser" : "Navegador", 
+  "tab_collectibles" : "Colecionáveis", 
+  "tab_nft" : "NFTs", 
+  "tab_settings" : "Configurações", 
+  "tab_swap" : "Trocar", 
+  "tab_wallet" : "Carteira", 
+  "today" : "Hoje", 
+  "tokenDetails" : { 
+    "name" : "Nome", 
+    "title" : "Detalhes do token", 
+    "token_id" : "ID do token", 
+    "tonviewer_button" : "Exibir no Tonviewer" 
+  }, 
+  "tonconnect_error" : {
+    "bad_request" : "Solicitação incorreta", 
+    "wrong_from" : "Parâmetro 'from' incorreto", 
+    "wrong_network" : "Rede errada" 
+  }, 
+  "tonkeeper_pro" : "Tonkeeper Pro", 
+  "tonkeeper_pro_description" : "A assinatura do Tonkeeper Pro vem com um recurso de carteira estendido, oferecendo um conjunto de ferramentas para gerenciamento de criptomoedas. ", 
+  "ton_login_back_to_button" : "Voltar para {name}", 
+  "ton_login_caption" : "{name} está solicitando acesso ao endereço da sua carteira", 
+  "ton_login_connect_button" : "Conectar carteira", 
+  "ton_login_notice" : "Certifique-se de verificar o endereço do serviço antes de conectar a carteira.", 
+  "ton_login_success" : "Concluído", 
+  "ton_login_title" : "Conectar a {0, number}omain?", 
+  "transaction_bid_collection_name" : "Issuer", 
+  "transaction_bid_date": "Lance {date}", 
+  "transaction_bid_dns": "Nome", 
+  "transaction_buy_date": "Comprado em {date}", 
+  "transaction_buy_status_failed": "Falha", 
+  "transaction_buy_status_pending": "Pendente", 
+  "transaction_buy_status_success": "Sucesso", 
+  "transaction_confirmations": "Confirmações", 
+  "transaction_confirm_bid": "Confirmar lance", 
+  "transaction_contract_deploy_date": "{date}", 
+  "transaction_copy_caution": "Tenha cuidado com links externos. Nunca forneça sua frase secreta a recursos de terceiros — você pode perder todos os seus fundos.\n\n- - -\n\n", 
+  "transactionDetails" : { 
+    "address" : "Endereço", 
+    "bid_collection_name" : "Emissor", 
+    "bid_name" : "Nome", 
+    "comment" : "Comentário", 
+    "description" : "Descrição", 
+    "operation" : "Operação", 
+    "payload" : "Carga útil", 
+    "recipient" : "Destinatário", 
+    "recipient_address" : "Endereço do destinatário", 
+    "sender" : "Remetente", 
+    "sender_address" : "Endereço do remetente", 
+    "spam" : "SPAM", 
+    "subscription_merchant_label" : "Comerciante", 
+    "subscription_product_label" : "Assinatura",
+    "transaction" : "Transação", 
+    "unsubscription_title" : "Cancelado", 
+    "withdraw_amount" : "Valor para cancelar aposta" 
+  }, 
+  "transaction_exchange_from_currency" : "De", 
+  "transaction_fee" : "Taxa", 
+  "transaction_hash" : "Transação", 
+  "transaction_merchant" : "Comerciante", 
+  "transaction_message" : "Mensagem", 
+  "transaction_purchase_id" : "ID da compra", 
+  "transaction_receive_date" : "Recebido em {data}", 
+  "transaction_recipient" : "Destinatário", 
+  "transaction_recipient_address" : "Endereço do destinatário",
+  "transaction_refund": "Reembolso", 
+  "transactions": { 
+    "bid": "Lance", 
+    "burned": "Queimado", 
+    "contract_deploy": "Implantação de contrato", 
+    "deposit": "Aposta", 
+    "failed": "Falha", 
+    "failed_with_reason": { 
+      "swap_refund_no_liq": "Falha. Aumente a tolerância de deslizamento nas configurações de swap para evitar esse erro." 
+    }, 
+    "nft_purchase" : "Compra NFT", 
+    "smartcontract_exec" : "Contrato de chamada", 
+    "spam" : "Spam", 
+    "subscription" : "Assinado", 
+    "swap" : "Trocar", 
+    "unknown" : "Desconhecido", 
+    "unknown_description" : "Algo aconteceu, mas não conseguimos reconhecer", 
+    "unsubscription" : "Assinatura cancelada", 
+    "wallet_initialized" : "Carteira inicializada", 
+    "withdraw" : "Cancelar aposta", 
+    "withdrawal_request" : "Solicitação de cancelamento de aposta" 
+  }, 
+  "transaction_sender" : "Remetente", 
+  "transaction_sender_address" : "Endereço do remetente", 
+  "transaction_send_more_button" : "Enviar mais para este destinatário", 
+  "transaction_sent_date" : "Enviado em {data}", 
+  "transaction_show_subscription_button" : "Exibir assinatura", 
+  "transaction_status": "Status", 
+  "transaction_subscription": "Assinatura", 
+  "transaction_subscription_date": "Cobrado em {date}", 
+  "transaction_transfer_name": "Nome da transferência", 
+  "transaction_type_bid": "Lance", 
+  "transaction_type_bounced": "Rejeitado", 
+  "transaction_type_buy": "Comprado", 
+  "transaction_type_contract_deploy": "Implantação do contrato", 
+  "transaction_type_from": "De", 
+  "transaction_type_new_subscriber": "Novo assinante", 
+  "transaction_type_pending": "Pendente", 
+  "transaction_type_receive": "Recebido", 
+  "transaction_type_sent": "Enviado", 
+  "transaction_type_subscriber_lost": "Assinante perdido", 
+  "transaction_type_subscription": "Inscrito",
+  "transaction_type_to": "Para", 
+  "transaction_type_unsubscription": "Cancelado", 
+  "transaction_type_wallet_initialized": "Carteira inicializada", 
+  "transaction_unsubscription": "Cancelamento de assinatura", 
+  "transaction_unsubscription_date": "{date}", 
+  "transaction_view_in_explorer": "Exibir no Explorer", 
+  "transaction_wallet_initialized_date": "{date}", 
+  "transaction_your_bid": "Seu lance", 
+  "transfer_deeplink_address_error": "Endereço do destinatário incorreto", 
+  "transfer_deeplink_amount_error": "Solicitação de valor incorreta", 
+  "transfer_deeplink_expired_error": "Link expirado",
+  "transfer_deeplink_nft_address_error": "Endereço NFT incorreto", 
+  "transfer_deeplink_unknown_jetton_error": "Token desconhecido", 
+  "transfer_deeplink_unknown_token": "Token desconhecido", 
+  "transfer_deeplink_wrong_params": "Parâmetros errados", 
+  "transfer_from_old_wallet_btn": "Transferência", 
+  "transfer_from_old_wallet_caption": "O Tonkeeper transferirá todas as moedas do seu endereço antigo para o seu endereço atual.", 
+  "transfer_from_old_wallet_in_progress": "Transferência em andamento", 
+  "transfer_from_old_wallet_title": "Transferência para o endereço atual", 
+  "transfer_pending_by_battery_error": "Outra transação está sendo processada pela bateria", 
+  "txActions": { 
+    "amount": "Quantidade", 
+    "fee" : "Taxa", 
+    "refund" : "Reembolso", 
+    "signRaw" : { 
+      "addressMismatch" : { 
+        "switchWallet" : { 
+          "close" : "Cancelar", 
+          "description" : "Trocar de carteira para confirmar a ação.", 
+          "switch" : "Trocar e continuar", 
+          "title" : "Ação para sua carteira {value}" 
+        }, 
+        "wrongVersion" : { 
+          "close" : "Cancelar", 
+          "description" : "Trocar seu endereço ativo para %{version} para confirmar a ação.", 
+          "switch" : "Trocar e continuar", 
+          "title" : "Ação para outro endereço de sua carteira" 
+        }, 
+        "wrongWallet" : { 
+          "close" : "OK", 
+          "description" : "Faça login em outra carteira {address} e tente novamente." , 
+          "title" : "Ação para outra carteira" 
+        } 
+      }, 
+      "comment" : "Comentar", 
+      "insufficientFunds" : { 
+        "rechargeBattery" : "Recarregue a bateria", 
+        "rechargeWallet" : "Compre {moeda}", 
+        "stakingDeposit" : "Saldo mínimo para participar:\n{quantidade} {moeda}\n", 
+        "stakingFee" : "{count} TON necessários para a transação. A taxa estimada {fee} TON será deduzida, o restante será reembolsado.", 
+        "title" : "Fundos insuficientes",
+        "title_multiwallet" : "Fundos insuficientes na carteira", 
+        "toBePaid" : "A ser pago: {amount} {currency}\n", 
+        "withFees" : "+ taxas de blockchain.\n", 
+        "yourBalance" : "Seu saldo: {balance} {currency}." 
+      }, 
+      "recipient" : "Destinatário", 
+      "title" : "Confirmar transação", 
+      "totalFee" : "Taxa total", 
+      "totalRefund" : "Reembolso total", 
+      "types" : { 
+        "contractDeploy" : "Implantação de contrato",
+        "jettonTransfer": "Transferência de token", 
+        "nftItemTransfer": "Transferência NFT", 
+        "subscribe": "Assinatura", 
+        "tonTransfer": "Transferência TON", 
+        "unknownTransaction": "Transação desconhecida", 
+        "unSubscribe": "Cancelar assinatura" 
+      }, 
+      "warning_caption": "O Tonkeeper não pode verificar completamente o resultado desta transação. Certifique-se de que você confia no destinatário.", 
+      "warning_title": "Aviso", 
+      "wrongTime": { 
+        "button": "Abrir configurações", 
+        "description": "Parece que o relógio do seu dispositivo não está sincronizado com a rede. Abra as configurações do dispositivo e ative a hora e a data automáticas.", 
+        "title": "Os relógios não estão sincronizados" 
+      } 
+    } 
+  }, 
+  "unverifiedTokenDetails": { 
+    "button": "OK", 
+    "description": "Este token parece suspeito por um ou vários motivos.", 
+    "paragraphs": { 
+      "p1": "Baixa liquidez. O token pode ter algum valor, mas é extremamente baixo.", 
+      "p2": "O token não está listado em plataformas de negociação e tem demanda limitada.", 
+      "p3": "Usado para spam. Empregado para enviar mensagens indesejadas e frequentemente irrelevantes em grande escala.", 
+      "p4": "Usado para golpes. O nome ou a imagem do token podem levar os usuários a serem enganados." 
+    }, 
+    "title": "Token não verificado" 
+  }, 
+  "update": { 
+    "description": "Uma nova versão do Tonkeeper está disponível. Você pode baixá-la agora.", 
+    "download": "Baixar", 
+    "downloading": "Baixando… '{{'progress'}}'%", 
+    "mb": "'{{'size'}}' MB", 
+    "remindLater": "Lembrar-me mais tarde", 
+    "retry": "Erro de download. Toque para tentar novamente.", 
+    "tap" : "Toque para atualizar", 
+    "title" : "Atualizar Tonkeeper", 
+    "version" : "Versão '{{'version'}}'" 
+  }, 
+  "upgrade_to_w5" : { 
+    "about_button" : "Sobre a W5 Wallet", 
+    "description" :"Experimente o novo padrão de carteira W5 com suporte para pagamentos USDT sem gás e outros recursos interessantes.", 
+    "hide_button" : "Ocultar", 
+    "settings" : "Carteira W5", 
+    "title" : "Transferências sem gás", 
+    "try_button" : "Experimente a carteira W5" 
+  }, 
+  "username_issued_by_telegram" : "Emitido pelo Telegram.", 
+  "username_manage_name_button" : "Gerenciar nome", 
+  "w5_stories" : { 
+    "0" : { 
+      "description" : "A W5 emprega uma abordagem de processamento de transações mais eficiente, o que significa até 25% menos custos de gás.", 
+      "title" : "Taxas de blockchain reduzidas" 
+    },
+    "1" : { 
+      "description" : "O W5 aumenta o número de operações simultâneas de 4 para 255, o que pode economizar em custos de taxas.", 
+      "title" : "Até 255 operações em uma transação" 
+    }, 
+    "2" : { 
+      "description" : "Envie USDT sem ter TON – as taxas de transação serão cobertas por alguns centavos de USDT automaticamente.", 
+      "title" : "Transferências de USDT sem gás" 
+    }, 
+    "3" : { 
+      "description" : "Contas antigas e W5 usam a mesma frase de recuperação – ao restaurar contas em um novo dispositivo, tanto a antiga quanto a nova aparecerão automaticamente.", 
+      "title" : "A frase de recuperação não muda" 
+    }, 
+    "4" : { 
+      "button" : "Adicionar carteira W5", 
+      "description" : "O padrão W5 não é definitivo. As transações sem gás são oferecidas como um recurso experimental para testar como ele funciona. Não mova todos os seus ativos para a carteira W5 até o lançamento final.", 
+      "title" : "W5 é Beta" 
+    } 
+  }, 
+  "wallet_about" : "Sobre ", 
+  "wallet_buy" : "Comprar", 
+  "wallet" : { 
+    "buy_btn" : "Comprar e vender", 
+    "collectibles_tab_lable" : "Colecionáveis", 
+    "edit_tokens_btn" : "Editar", 
+    "inscriptions_tab_label" : "Inscrições", 
+    "nft_tab_lable" : "Colecionáveis", 
+    "old_wallets_title" : "Carteiras antigas", 
+    "old_wallet_title" : "Carteira antiga", 
+    "receive_btn" : "Receber", 
+    "scan_btn" : "Escanear", 
+    "screen_title" : "Carteira", 
+    "send_btn" : "Enviar", 
+    "stake_btn" : "Apostar", 
+    "swap_btn" : "Swap", 
+    "tonkens_tab_lable" : "Tokens", 
+    "updated_at" : "Atualizado em {value}" 
+  }, 
+  "wallet_chat" : "Bate-papo", 
+  "wallet_community" : "Comunidade", 
+  "wallet_hours_symbol" : "h", 
+  "wallet_old_balance" : "Carteira antiga:", 
+  "wallet_receive" : "Receber", 
+  "wallets" : "Carteiras", 
+  "wallet_sell" : "Vender", 
+  "wallet_send" : "Enviar",
+  "wallet_source_code" : "Código-fonte", 
+  "wallet_swap" : "Trocar", 
+  "wallet_title" : "Carteira", 
+  "watch_only" : "Somente observar", 
+  "yesterday" : "Ontem" 
+}
